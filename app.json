@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "name-badge",
+    "slug": "name-badge",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8482599b-8a6b-4505-bf98-335647f9e4bc"
+      }
+    },
+    "owner": "gfbarron",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8482599b-8a6b-4505-bf98-335647f9e4bc"
+    }
+  },
+  "plugins": [
+    [
+      "expo-screen-orientation",
+      {
+        "initialOrientation": "DEFAULT"
+      }
+    ]
+  ]
+}
